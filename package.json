@@ -1,0 +1,33 @@
+{
+  "name": "kb-studios.github.io",
+  "version": "1.0.0",
+  "description": "Kaushal Bhogale's Personal webpage",
+  "main": "sass/mystyles.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kb-studios/kb-studios.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "webpage",
+    "vue",
+    "sass",
+    "bulma"
+  ],
+  "author": "Kaushal Bhogale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kb-studios/kb-studios.github.io/issues"
+  },
+  "homepage": "https://github.com/kb-studios/kb-studios.github.io#readme",
+  "devDependencies": {
+    "bulma": "^0.7.4",
+    "node-sass": "^4.11.0"
+  }
+}
