@@ -271,7 +271,7 @@ th {
   text-align: left; }
 
 html {
-  background-color: #f7ff73;
+  background-color: white;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -791,10 +791,10 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: #4a4a4a !important; }
 
 .has-text-grey {
-  color: #7a7a7a !important; }
+  color: #f7ff73 !important; }
 
 .has-background-grey {
-  background-color: #7a7a7a !important; }
+  background-color: #f7ff73 !important; }
 
 .has-text-grey-light {
   color: #b5b5b5 !important; }
@@ -1879,7 +1879,7 @@ a.box:active {
   .button.is-static {
     background-color: whitesmoke;
     border-color: #dbdbdb;
-    color: #7a7a7a;
+    color: #f7ff73;
     box-shadow: none;
     pointer-events: none; }
   .button.is-rounded {
@@ -2138,31 +2138,31 @@ a.box:active {
     background-color: #f7ff73;
     border-color: #f7ff73;
     box-shadow: none;
-    color: #7a7a7a; }
+    color: #f7ff73; }
     .input[disabled]::-moz-placeholder,
     fieldset[disabled] .input::-moz-placeholder,
     .textarea[disabled]::-moz-placeholder,
     fieldset[disabled]
     .textarea::-moz-placeholder {
-      color: rgba(122, 122, 122, 0.3); }
+      color: rgba(247, 255, 115, 0.3); }
     .input[disabled]::-webkit-input-placeholder,
     fieldset[disabled] .input::-webkit-input-placeholder,
     .textarea[disabled]::-webkit-input-placeholder,
     fieldset[disabled]
     .textarea::-webkit-input-placeholder {
-      color: rgba(122, 122, 122, 0.3); }
+      color: rgba(247, 255, 115, 0.3); }
     .input[disabled]:-moz-placeholder,
     fieldset[disabled] .input:-moz-placeholder,
     .textarea[disabled]:-moz-placeholder,
     fieldset[disabled]
     .textarea:-moz-placeholder {
-      color: rgba(122, 122, 122, 0.3); }
+      color: rgba(247, 255, 115, 0.3); }
     .input[disabled]:-ms-input-placeholder,
     fieldset[disabled] .input:-ms-input-placeholder,
     .textarea[disabled]:-ms-input-placeholder,
     fieldset[disabled]
     .textarea:-ms-input-placeholder {
-      color: rgba(122, 122, 122, 0.3); }
+      color: rgba(247, 255, 115, 0.3); }
   .input[readonly],
   .textarea[readonly] {
     box-shadow: none; }
@@ -2318,7 +2318,7 @@ a.box:active {
   .radio[disabled],
   fieldset[disabled]
   .radio {
-    color: #7a7a7a;
+    color: #f7ff73;
     cursor: not-allowed; }
 
 .radio + .radio {
@@ -2365,19 +2365,19 @@ a.box:active {
       background-color: #f7ff73;
       border-color: #f7ff73;
       box-shadow: none;
-      color: #7a7a7a; }
+      color: #f7ff73; }
       .select select[disabled]::-moz-placeholder,
       fieldset[disabled] .select select::-moz-placeholder {
-        color: rgba(122, 122, 122, 0.3); }
+        color: rgba(247, 255, 115, 0.3); }
       .select select[disabled]::-webkit-input-placeholder,
       fieldset[disabled] .select select::-webkit-input-placeholder {
-        color: rgba(122, 122, 122, 0.3); }
+        color: rgba(247, 255, 115, 0.3); }
       .select select[disabled]:-moz-placeholder,
       fieldset[disabled] .select select:-moz-placeholder {
-        color: rgba(122, 122, 122, 0.3); }
+        color: rgba(247, 255, 115, 0.3); }
       .select select[disabled]:-ms-input-placeholder,
       fieldset[disabled] .select select:-ms-input-placeholder {
-        color: rgba(122, 122, 122, 0.3); }
+        color: rgba(247, 255, 115, 0.3); }
     .select select::-ms-expand {
       display: none; }
     .select select[disabled]:hover,
@@ -2480,7 +2480,7 @@ a.box:active {
   .select.is-large {
     font-size: 1.5rem; }
   .select.is-disabled::after {
-    border-color: #7a7a7a; }
+    border-color: #f7ff73; }
   .select.is-fullwidth {
     width: 100%; }
     .select.is-fullwidth select {
@@ -2961,7 +2961,7 @@ a.box:active {
   .control.has-icons-left .input:focus ~ .icon,
   .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
   .control.has-icons-right .select:focus ~ .icon {
-    color: #7a7a7a; }
+    color: #f7ff73; }
   .control.has-icons-left .input.is-small ~ .icon,
   .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
   .control.has-icons-right .select.is-small ~ .icon {
@@ -3992,7 +3992,7 @@ a.list-item {
     padding-left: 0.75em; }
 
 .menu-label {
-  color: #7a7a7a;
+  color: #f7ff73;
   font-size: 0.75em;
   letter-spacing: 0.1em;
   text-transform: uppercase; }
@@ -5009,7 +5009,7 @@ a.navbar-item,
     background-color: #dbdbdb;
     border-color: #dbdbdb;
     box-shadow: none;
-    color: #7a7a7a;
+    color: #f7ff73;
     opacity: 0.5; }
 
 .pagination-previous,
@@ -5146,7 +5146,7 @@ label.panel-block {
   text-align: center;
   vertical-align: top;
   width: 1em;
-  color: #7a7a7a;
+  color: #f7ff73;
   margin-right: 0.75em; }
   .panel-icon .fa {
     font-size: inherit;
