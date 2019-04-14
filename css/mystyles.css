@@ -6938,3 +6938,9 @@ label.panel-block {
 #myimg {
   margin-top: 100px;
   margin-left: 50px; }
+
+.delay0 {
+  animation-delay: 0.2s; }
+
+.delay1 {
+  animation-delay: 5s; }
