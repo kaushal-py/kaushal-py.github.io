@@ -27,11 +27,11 @@
 
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
-            <a class="navbar-item">
+            <a class="navbar-item" href="index.html">
                <strong>&nbsp;&nbsp;HOME</strong>
             </a>
 
-            <a class="navbar-item">
+            <a class="navbar-item" href="about.html">
                 <strong>ABOUT</strong>
             </a>
             <a class="navbar-item">
@@ -45,7 +45,7 @@
             <div class="navbar-end">
             <div class="navbar-item">
                 <div class="buttons">
-                <a class="button is-light">
+                <a class="button is-light" href="Kaushal_Bhogale_Resume.pdf" target="_blank">
                     <strong>Download Résumé</strong>
                 </a>
                 </div>
@@ -64,7 +64,7 @@
                     Hey, I am Kaushal Bhogale!
                 </h1>
                 <br>
-                <div id="start-anim" class="animated slideInUp">
+                <div id="start-anim" class="animated slideInUp has-text-justified">
                 <p class="is-size-5">
                     I am a programmer.
                     I am currently pursuing my Bachelors Degree in Information Technology
@@ -119,3 +119,31 @@
 
 </body>
 </html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+      
+          // Add a click event on each of them
+          $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+      
+              // Get the target from the "data-target" attribute
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+      
+              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+              el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+      
+            });
+          });
+        }
+      
+      });
+</script>
