@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Kaushal Bhogale</title>
+</head>
+<body>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+
+        <div class="container">
+        <div class="navbar-brand">
+            <figure class="image is-64x64 animated bounce delay1">
+                <img src="imgs/kb_logo/web.png">
+            </figure>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+            <a class="navbar-item" href="index.html">
+               <strong>&nbsp;&nbsp;HOME</strong>
+            </a>
+
+            <a class="navbar-item">
+                <strong>ABOUT</strong>
+            </a>
+            <a class="navbar-item">
+                <strong>PROJECTS</strong>
+            </a>
+            <a class="navbar-item">
+                <strong>CONTACT</strong>
+            </a>
+            </div>
+            
+            <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                <a class="button is-light" href="Kaushal_Bhogale_Resume.pdf" target="_blank">
+                    <strong>Download Résumé</strong>
+                </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </nav>
+    <div class="container">
+
+        <div class="tile">
+
+            <div class="tile is-vertical is-9">
+                <h1 id="heading" class="is-size-1 animated slideInUp">
+                    <br>
+                    About me
+                </h1>
+                <br>
+                <div id="start-anim" class="animated slideInUp">
+                    <p class="is-size-5">
+                        I like computers a lot. Right from my childhood, video games interested me. Not only because they were 
+                        fun to play, but also because I was always curious about how these games were made. In the process of 
+                        trying to learn to make video games, I got introduced to programming. I think programming made me
+                        very powerful. I started imagining the computer as a "mini universe" and I was it's God. I coud write
+                        any sorts of rules, run all kinds of simulations, and the computer would do so on my command.
+                    </p>
+                    <br>
+                    <p class="is-size-5">
+                        With this, I decided to pursue my Bachelors in Information Technology. During this period, I got
+                        to know the importance of mathematics in this field. It was very exciting to apply mathematical concepts
+                        (which I earlier thought were purely theoretical) into some of the applications I worked on.
+                        Also, I got interested in certain research domains, and aiming to get a Masters degree soon.
+                    </p>
+                    <br>
+                    <p class="is-size-5">
+                        As I said, programming did make me feel very powerful. Being so much empowered by it gave me a lot of happiness.
+                        And this made me grow my interest in this field. But, as Spiderman always says 
+                        <em>"With great power comes great responsibility"</em>. I want to use my abilites to work for the future of India.
+                    </p>
+                    <br>
+                    <p class="is-size-5">
+                        On the lighter side about me, I like wactching vidoes about music, space and the future. And I do play a lot of video
+                        games in my free time.
+                    </p>
+                    <br>
+                    <br>
+                </div>
+                
+            </div>
+            <div class="tile is-2">
+                <!-- <figure id="myimg" class="image animated fadeIn delay0">
+                    <img src="imgs/kb.png">
+                </figure> -->
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+      
+          // Add a click event on each of them
+          $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+      
+              // Get the target from the "data-target" attribute
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+      
+              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+              el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+      
+            });
+          });
+        }
+      
+      });
+</script>
